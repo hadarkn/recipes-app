@@ -1,0 +1,20 @@
+# Installed dependencies
+node_modules/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend build output
+/frontend/dist/
+
+# Test coverage and logs
+coverage/
+*.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
